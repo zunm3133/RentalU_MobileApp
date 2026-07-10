@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome from RentalU"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="35dp"
+        android:textColor="#4D64E4"
+        android:textStyle="bold|italic"
+        />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/welcome"
+        android:src="@drawable/houserent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/picture"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/teal_700"
+        android:hint="Email Address"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_below="@id/editTextTextEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:drawablePadding="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignIn"
+        android:layout_below="@id/editTextTextPassword"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_below="@id/button"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_toRightOf="@id/textView"
+        android:layout_below="@id/button"
+        android:layout_marginLeft="150dp"/>
+
+</RelativeLayout>

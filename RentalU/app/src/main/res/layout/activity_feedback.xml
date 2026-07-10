@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity"
+    android:background="#D5F6F3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:text="Feedback"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:id="@+id/name"
+        android:layout_below="@id/textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:id="@+id/mail"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject"
+        android:id="@+id/subject"
+        android:layout_below="@id/mail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/feed"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Feedback"
+        android:layout_below="@id/subject"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:inputType="textMultiLine" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Send Feedback"
+        android:id="@+id/btn"
+        android:layout_below="@id/feed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+    <RatingBar
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:id="@+id/rating"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:id="@+id/return_btn"
+        android:layout_below="@id/rating"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+
+</RelativeLayout>

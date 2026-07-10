@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RentalU</string>
+    <string-array name="property_type">
+        <item></item>
+        <item>House</item>
+        <item>Single-Family Home</item>
+        <item>Bungalow</item>
+        <item>Flat</item>
+        <item>Condo</item>
+        <item>Townhouse</item>
+        <item>Duplex</item>
+    </string-array>
+    <string-array name="bedroom">
+        <item></item>
+        <item>Studio</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+    </string-array>
+    <string-array name="furnituretypes">
+        <item></item>
+        <item>Furnished</item>
+        <item>Unfurnished</item>
+        <item>Part Furnished</item>
+    </string-array>
+</resources>

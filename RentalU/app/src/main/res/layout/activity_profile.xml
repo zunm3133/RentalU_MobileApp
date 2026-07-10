@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="#D5F6F3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:id="@+id/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:id="@+id/username"
+        android:text="Email Address : "
+        android:textSize="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/ed1"
+        android:layout_toRightOf="@id/username"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:id="@+id/pw"
+        android:text="Password : "
+        android:textSize="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="55dp"
+        android:id="@+id/ed2"
+        android:layout_toRightOf="@id/pw"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pw"
+        android:id="@+id/color"
+        android:text="Favorite Color : "
+        android:textSize="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/pw"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/ed3"
+        android:layout_toRightOf="@id/color"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/color"
+        android:id="@+id/movie"
+        android:text="Favorite Movie : "
+        android:textSize="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/color"
+        android:id="@+id/ed4"
+        android:layout_toRightOf="@id/movie"/>
+
+</RelativeLayout>
