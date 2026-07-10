@@ -1,6 +1,3 @@
-# RentalU_MobileApp
-RentalU Mobile Application built with Android Studio
-
 # RentalU
 
 RentalU is an Android application that allows users to manage rental listings — add, view, edit, and delete rental data — with secure account creation and password recovery.
